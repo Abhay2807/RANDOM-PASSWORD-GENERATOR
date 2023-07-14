@@ -7,7 +7,7 @@ User can generate a password of desired length and it can be the combination of 
 numbers and symbols.
 Also the generated password is copied to the user's clipboard automatically.
 
-Website is Hosted on Github Pages, Website Link: 
+Website is Hosted on Github Pages, Website Link: https://abhay2807.github.io/RANDOM-PASSWORD-GENERATOR/
 
 ![Password](https://github.com/Abhay2807/RANDOM-PASSWORD-GENERATOR/assets/76277587/760d8ea8-6076-41bf-bf6b-b8250425e1fe)
 
