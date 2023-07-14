@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main {
+    background-color: #3498db;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    background: #2980b9;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 12px 14px;
+    border-radius: 4px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+label {
+    user-select: none;
+}
+
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.right input {
+  font-size: 20px;
+}
+
+@media (max-width:550px){
+ h1{
+  font-size: 20px;
+ }
+}
+
+@media (max-width:450px) {
+
+  #pass-box {
+    font-size: 16px;
+  }
+
+  .row {
+    font-size: 12px;
+  }
+
+  .box {
+    min-width: 200px;
+  }
+
+  #btn {
+    font-size: 14px;
+  }
+
+  .right input {
+    font-size: 14px;
+  }
+  
+}
+
+@media (max-width:320px)
+{
+  h1 {
+    font-size:15px;
+  }
+}
+
+@media (max-width:250px)
+{
+  h1 {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #pass-box {
+    font-size: 14px;
+  }
+
+  .row {
+    font-size: 10px;
+  }
+
+  .box {
+    min-width: 120px;
+  }
+
+  #btn {
+    font-size: 12px;
+  }
+
+  .right input {
+    font-size: 12px;
+  }
+}
+
+
+
+  
+
